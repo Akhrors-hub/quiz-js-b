@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My quizz</title>
+
+    <!-- bootstrap link to its website -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- link to the style of css that i used external type -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+
+<body>
+    <article>
+        <div id="container" class="container">
+            <!-- my start to click-->
+            <div id="start">Start Quiz with Smile Mood</div>
+            <!-- quiz block -->
+
+
+
+
+
+
+
+            <div id="quiz" style="display: none">
+                <!-- questions -->
+
+
+                <div id="question"></div>
+                <div id="qImg"></div>
+                <div id="choices">
+                    <!-- choices of question -->
+                    <div id="A" class="choice" onclick="checkAnswer('A')"></div>
+                    <div id="B" class="choice" onclick="checkAnswer('B')"></div>
+                    <div id="C" class="choice" onclick="checkAnswer('C')"></div>
+                </div>
+                <!-- timer for question to answer to User -->
+                <div id="timer">
+                    <div id="counter"></div>
+                    <div id="btimeGauge"></div>
+                    <div id="timeGauge"></div>
+                </div> -->
+
+                <!-- I forgot here to write progress then  it didnt open quesion choices after start -->
+
+
+
+
+
+                <div id="progress"></div>
+            </div>
+            <div id="scoreContainer" style="display: none"></div>
+
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+        </div>
+    </article>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="card-body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <hr>
+
+
+        <!-- <div class="col-md-8 rounded mx-auto d-block ">
+            <div class="card mb-4 shadow-sm">
+
+                <div class="card-body  "> -->
+
+        <!-- 
+
+                    <div>
+                        <div id="start">Start Quiz!</div>
+                        <div id="quiz" style="display: none">
+                            <div id="question"></div>
+                            <div id="qImg"></div>
+                            <div id="choices">
+                                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                            </div>
+                            <div id="timer">
+                                <div id="counter"></div>
+                                <div id="btimeGauge"></div>
+                                <div id="timeGauge"></div>
+                            </div>
+                            <div id="progress"></div>
+                        </div>
+                        <div id="scoreContainer" style="display: none"></div>
+                    </div> -->
+
+
+
+        <script src="quiz.js"></script>
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+    </article>
+
+    </div>
+
+    <!-- javascript link  -->
+    <script src="./app.js"></script>
+
+    <!-- bootstrap website requires some of the links from javascript and Jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
